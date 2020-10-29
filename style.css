@@ -133,3 +133,9 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr;
 }
+
+.glass-left img,
+.glass-center img,
+.glass-right img{
+    max-width: 100%; 
+}
