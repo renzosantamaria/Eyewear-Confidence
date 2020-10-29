@@ -95,7 +95,9 @@ a{
 }
 
 /*---------------------------- MAIN WRAPPER -------------------------*/
-
+.main{
+    margin-bottom: 80px;
+}
 .main-wrapper{
     padding: 0 10%;
     margin: 64px 0;
@@ -134,7 +136,7 @@ h1{
     grid-row: 1fr;
 }
 
-.glasses-slide a{
+.main a{
     color: black;
     font-size: 15px;
 }
@@ -194,4 +196,37 @@ h1{
 .slide-btn-container a{
     border: solid black 1px;
     padding: 10px 70px;
+}
+
+/*--------------------------- SECTION MODELS------------------------ */
+
+.models{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.models p{
+    text-align: center;
+    line-height: 24px;
+}
+
+.model-left,
+.model-center,
+.model-right{
+    display: grid;
+}
+
+.model-left img,
+.model-center img,
+.model-right img{
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+
+.models h1{
+    text-align: center;
+    margin: 20px 0;
 }
