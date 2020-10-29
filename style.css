@@ -204,6 +204,7 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-bottom: 80px;
 }
 
 .models p{
@@ -236,4 +237,30 @@ h1{
     color: black;
     margin: 20px;
     font-size: 15px;
+}
+
+
+/*----------------------------- SECTION FLYERS -----------------------*/
+
+
+.flyers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.upper-left{
+    background-image: url("images/calender-pic.jpg");
+    height: 400px;
+}
+
+.upper-right{
+    background-image: url("images/black-white-pic.png");
+
+}
+
+.bottom{
+    grid-column-start: span 2;
+    background-image: url("images/2people-pic.jpg");
 }
