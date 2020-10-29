@@ -134,8 +134,64 @@ h1{
     grid-row: 1fr;
 }
 
+.glasses-slide a{
+    color: black;
+    font-size: 15px;
+}
+
 .glass-left img,
 .glass-center img,
 .glass-right img{
     max-width: 100%; 
+    margin: 0 auto;
+}
+
+.glass-left,
+.glass-center,
+.glass-right{
+    display: grid;
+}
+
+.color-picker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.c-picker-left-1,
+.c-picker-left-2,
+.c-picker-center-1,
+.c-picker-center-2,
+.c-picker-right-1,
+.c-picker.right-2{
+    height: 16px;
+    width: 16px;
+    border: none;
+    border-radius: 100%;
+    margin: 0 8px 16px 8px;
+}
+
+
+.c-picker-left-1{
+    background-color: rgb(177, 177, 24);
+}
+
+.c-picker-left-2{
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.picker-text{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.slide-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.slide-btn-container a{
+    border: solid black 1px;
+    padding: 10px 70px;
 }
